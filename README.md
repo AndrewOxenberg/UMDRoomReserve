@@ -1,5 +1,7 @@
 ﻿# UMDRoomReserve
 
+Outdated due to a UI change
+
 A Python-based Selenium utility designed to streamline and automate the room reservation process for the McKeldin Library at the University of Maryland. It handles the tedious "30-minute block" selection process and coordinates multiple user accounts for long-duration bookings.
 
 ![Blackjack Table](Screenshots/space.png)
