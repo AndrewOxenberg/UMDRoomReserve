@@ -14,8 +14,8 @@ driver = webdriver.Chrome()
 
 def find_full_room(time_obj, formatted_date, total_hours):
     time_format = "%I:%M%p"
-    
-    for room in "MABCEFGHJKL":
+    # K is the S-tier room
+    for room in "KGMABCEHJL":
         full_block_available = True
         
         for i in range(total_hours * 2):  # check every 30 min slot
@@ -54,7 +54,7 @@ def two_hour_block(time_obj, fname, lname, uid, email, room):
 
     element_title = element.get_attribute("title")
     if "unavailable" in element_title.lower(): 
-        print("error, unavailable")
+        # print("error, unavailable" + time_obj)
         return
     else:
         flag = 1
@@ -196,6 +196,7 @@ for i in range(hours // 2):
     time_obj = time_obj + timedelta(minutes=120)
     time = time_obj.strftime(time_format)
     
+
 
 driver.quit()
 
