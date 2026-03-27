@@ -2,6 +2,8 @@
 
 A Python-based Selenium utility designed to streamline and automate the room reservation process for the McKeldin Library at the University of Maryland. It handles the tedious "30-minute block" selection process and coordinates multiple user accounts for long-duration bookings.
 
+![Blackjack Table](Screenshots/space.png)
+
 Key Features:
 * Desirability-Based Search: Automatically scans for availability based on a pre-defined ranking (starting with Room 2100K, then G, M, A, etc.). It finds the first room that can accommodate the entire requested time block.
 * Multi-Session Orchestration: Rotates through a local list of user credentials to book consecutive 2-hour sessions, effectively bypassing individual booking limits for long study marathons.
