@@ -1,8 +1,3 @@
 First Name, Last Name, UID, Terpmail
-Andrew,Oxenberg,119784884,oxenberg@terpmail.umd.edu
-Nathan,Danko,119804377,ndanko@terpmail.umd.edu
-Alexander,Arshavskiy,119721520,aarshav@terpmail.umd.edu
-Drew, Wei-Williams, 119653074, dweiwill@terpmail.umd.edu
-Nat, Solomonov, 119674543, nsolomo3@terpmail.umd.edu
-gfdsasdf, gfdsdfg, 10201020, asdasdasd@terpmail.umd.edu
+
 
